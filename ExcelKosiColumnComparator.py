@@ -81,7 +81,7 @@ for x in range(t1+1, l1):
 
             noExtension = re.sub(regex, '', input_text)
 
-            if noExtension.casefold() == str(sheet.cell(row=z, column=3).value).casefold():
+            if noExtension.casefold() == str(sheet.cell(row=z, column=scrapeColumn).value).casefold():
                 i += 1   
     
     # Filling a column with Yes or No based on the scraping results
