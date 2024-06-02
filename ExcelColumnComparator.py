@@ -8,7 +8,7 @@ from openpyxl.utils import get_column_letter, column_index_from_string
 import time
 
 # Welcome instruction
-print(f'Excel Kosi Column Comparator - tool designed for VLOOKUP operations in Excel files.'
+print(f'Excel Column Comparator - tool designed for VLOOKUP operations in Excel files.'
       '\nPlace the Excel file to be checked in the folder where this program is located.\n')
 
 # Opening Excel file
