@@ -1,5 +1,5 @@
 #! python3
-# ExcelKosiColumnComparator.py - Tool designed for VLOOKUP operations in Excel files. It ignores case, size, and file extension. It saves time and reduces strain on your wrists.
+# ExcelColumnComparator.py - Tool designed for VLOOKUP operations in Excel files. It ignores case, size, and file extension. It saves time and reduces strain on your wrists.
 # Author - Robert Stokłosa
 
 import openpyxl, re
